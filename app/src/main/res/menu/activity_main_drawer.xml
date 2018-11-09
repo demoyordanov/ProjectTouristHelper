@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_user"
+            android:icon="@drawable/ic_nav_entities"
+            android:title="USER" />
+        <item
+            android:id="@+id/nav_currencyExchange"
+            android:icon="@drawable/ic_nav_wallet"
+            android:title="Currency Exchange" />
+        <item
+            android:id="@+id/nav_emergencyNumbers"
+            android:icon="@drawable/ic_nav_emergency"
+            android:title="Emergency Numbers" />
+        <item
+            android:id="@+id/nav_ContactList"
+            android:icon="@drawable/ic_nav_call"
+            android:title="Tour Contacts" />
+        <item
+            android:id="@+id/nav_DailyActivities"
+            android:icon="@drawable/ic_nav_locations"
+            android:title="Daily Actvities" />
+        <item
+            android:id="@+id/nav_nearby"
+            android:icon="@drawable/ic_nav_nearby"
+            android:title="Nearby..." />
+    </group>
+
+
+</menu>

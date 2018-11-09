@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="24dp">
+
+        <Spinner
+            android:id="@+id/countryNumberSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="24dp"
+            android:layout_marginVertical="24dp"></Spinner>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="48dp">
+
+        <ImageView
+            android:id="@+id/emergencyNumbers_btn_police"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:src="@drawable/emergency_police" />
+
+        <TextView
+            android:id="@+id/emergencyNumbers_Police"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="48dp"
+            android:textSize="36dp"
+            android:gravity="center"
+            android:text="113"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="48dp">
+
+        <ImageView
+            android:id="@+id/emergencyNumbers_btn_ambulance"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:src="@drawable/emergency_ambl" />
+
+        <TextView
+            android:id="@+id/emergencyNumbers_Ambulance"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="48dp"
+            android:textSize="36dp"
+            android:gravity="center"
+            android:text="113"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="48dp">
+
+        <ImageView
+            android:id="@+id/emergencyNumbers_btn_fire"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:src="@drawable/emergency_fire" />
+
+        <TextView
+            android:id="@+id/emergencyNumbers_FireDepartment"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="48dp"
+            android:textSize="36dp"
+            android:gravity="center"
+            android:text="113"/>
+    </LinearLayout>
+
+</LinearLayout>
